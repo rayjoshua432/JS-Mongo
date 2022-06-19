@@ -19,4 +19,4 @@ const UserSchema = new Schema({
 })
 
 // Export mongoose Schema model
-module.exports = mongoose.model('conn', UserSchema)
+module.exports = mongoose.model('users', UserSchema)
